@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAZAKHSTAN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            min-height: 100vh;
+        }
+        .background {
+            background-image: url(pictures&svg/Home.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        .section-title {
+            font-size: 1.75rem;
+            color: #eff0f1;
+            font-weight: bold;
+            margin-bottom: 0.75rem;
+        }
+        .section-content {
+            font-size: 1.1rem;
+            font-family: serif; 
+            color: #eff0f1;
+            line-height: 1.5;
+        }
+        .divider {
+            border-bottom: 2px solid #E5E7EB;
+            margin: 1.5rem 0;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .grid-item {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .grid-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="background">
+    <nav class="navbar" style="background-color: lightblue;">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex shrink-0 items-center">
+                        <img class="h-8 w-auto" src="pictures&svg/kz.svg" alt="Kazakhstan Map">
+                    </div>
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex space-x-4">
+                            <a href="index.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">Home</a>
+                            <a href="culture.html" class="rounded-md bg-yellow-900 px-3 py-2 text-sm font-medium text-yellow-500" aria-current="page">Culture & Tradition</a>
+                            <a href="gotoplaces.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">Adventures & Fun</a>
+                            <a href="know.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">The Past of Kazakhstan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="h-auto min-h-screen py-24 px-4 md:px-56 overflow-y-auto">
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+            <h2 class="section-title">Culture</h2>
+            <div class="image-grid">
+                <div class="grid-item">
+                    <img src="pictures&svg/culture1.png" class="grid-img" alt="Traditional Dance">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/culture2.jpeg" class="grid-img" alt="Nomadic Crafts">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/culture3.jpeg" class="grid-img" alt="Music Performance">
+                </div>
+            </div>
+            <p class="section-content">
+                Kazakhstan’s culture is a mesmerizing blend of ancient nomadic heritage and vibrant modern traditions. Step into the world of Traditional Yurts the iconic portable tents that symbolize the pastoral lifestyle of the Kazakh nomads. These beautifully crafted dwellings are not just shelters but a testament to the harmony between humans and nature. Horses, the pride of Kazakh culture are deeply woven into the nation’s history, sports and daily life. From thrilling equestrian games like Kokpar to the gentle bond between rider and steed the equestrian culture is alive and thriving. Don’t miss the joyous Nauryz Meyrami the spring festival celebrated from March 21–23 which marks renewal and rebirth. With music, dance and the aroma of traditional dishes filling the air, Nauryz is a window into the soul of Kazakhstan.
+            </p>
+            <div class="divider"></div>
+            <h2 class="section-title">Tradition</h2>
+            <div class="image-grid">
+                <div class="grid-item">
+                    <img src="pictures&svg/tradition1.jpg" class="grid-img" alt="Asyk Atu Game">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/tradition2.jpg" class="grid-img" alt="Kyz Kuu Chase">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/tradition3.jpg" class="grid-img" alt="Eagle Hunting">
+                </div>
+            </div>
+            <p class="section-content">
+                Kazakh traditions are a treasure trove of rituals that connect the past to the present. Witness the enchanting Betashar, a bride’s unveiling ceremony during weddings where poetic songs and blessings welcome her into her new family. It’s a moment of beauty, emotion and cultural pride. At gatherings and milestones, elders bestow Bata heartfelt blessings that carry wisdom and goodwill for the future. For those seeking excitement, Kazaksha Kures, the traditional wrestling is a thrilling display of strength and skill. Wrestlers, clad in colorful attire, compete in this ancient sport showcasing the enduring spirit of Kazakh warriors. These traditions are not just customs they are the heartbeat of Kazakhstan’s identity.
+            </p>
+            <div class="divider"></div>
+            <h2 class="section-title">Food Delicacies</h2>
+            <div class="image-grid">
+                <div class="grid-item">
+                    <img src="pictures&svg/foodDelicacies1.jpeg" class="grid-img" alt="Besbarmak">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/foodDelicacies2.jpg" class="grid-img" alt="Manti Dumplings">
+                </div>
+                <div class="grid-item">
+                    <img src="pictures&svg/foodDelicacies3.jpg" class="grid-img" alt="Kumys Drink">
+                </div>
+            </div>
+            <p class="section-content">
+                Kazakh cuisine is a feast for the senses which offers hearty dishes that tell stories of the nomadic lifestyle. Savor Beshbarmak, the crown jewel of Kazakh meals featuring tender boiled meat (horse or lamb) served over flat noodles often enjoyed during special ceremonies. For a taste of celebration try Kazy, a smoked horse meat sausage that’s both rich and flavorful often reserved for festive occasions. And don’t forget Samsa, flaky pastries filled with succulent meat, onions and fat baked to golden perfection. Each bite is a journey through the flavors of the steppe where food is not just nourishment but a celebration of life and community.
+            </p>
+        </div>
+    </section>
+</body>
+</html>

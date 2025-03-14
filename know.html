@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAZAKHSTAN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            min-height: 100vh;
+        }
+        .background {
+            background-image: url(pictures&svg/Home.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        .content-section {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            margin: 20px 0;
+            color: #eff0f1; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            border-radius: 15px;
+        }
+        .content-section.reverse-section {
+            flex-direction: column;
+        }
+        .content-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .map-image {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: justify;
+            font-family: serif;
+            color: #eff0f1; 
+        }
+        @media (min-width: 768px) {
+            .content-section {
+                flex-direction: row;
+                gap: 30px;
+            }
+            .content-section.reverse-section {
+                flex-direction: row-reverse;
+            }
+            .content-image {
+                width: 50%;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body class="background">
+  <nav class="navbar" style="background-color: lightblue;">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex shrink-0 items-center">
+                    <img class="h-8 w-auto" src="pictures&svg/kz.svg" alt="Kazakhstan Map">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                        <a href="index.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">Home</a>
+                        <a href="culture.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">Culture & Tradition</a>
+                        <a href="gotoplaces.html" class="rounded-md px-3 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-900 hover:text-yellow-500">Adventures & Fun</a>
+                        <a href="know.html" class="rounded-md bg-yellow-900 px-3 py-2 text-sm font-medium text-yellow-500" aria-current="page">The Past of Kazakhstan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </nav> 
+  <section class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-56 py-8">
+      <div class="content-section">
+          <img src="pictures&svg/history1.jpg" class="content-image" alt="Historical Kazakhstan">
+          <div>
+              <p>Kazakhstan's history is deeply rooted in the nomadic tribes of the Eurasian steppe who roamed its vast landscapes for centuries. As a crossroads of civilizations, the region played a pivotal role in the Silk Road connecting East and West and fostering cultural and economic exchange. Over time, it became a melting pot of empires from the Mongols under Genghis Khan to the Timurids. In the 18th century, the Russian Empire expanded into the region which eventually incorporating Kazakhstan into the Soviet Union in 1936. Kazakhstan emerged as an independent nation in 1991 following the dissolution of the USSR which marks the beginning of a new era of growth and development.</p>
+          </div>
+      </div>
+      <div class="content-section map-section reverse-section">
+          <img src="pictures&svg/map.png" class="map-image" alt="Kazakhstan Map">
+          <div style="margin-top: 20px;">
+              <p>As the world's largest landlocked country, Kazakhstan spans both Eastern Europe and Central Asia. It features diverse geography including the Altai Mountains, Caspian Sea coastline and vast steppes. The country borders Russia, China, Kyrgyzstan, Uzbekistan and Turkmenistan.</p>
+          </div>
+      </div>
+      <div class="content-section">
+          <img src="pictures&svg/history2.jpg" class="content-image" alt="Modern Kazakhstan">
+          <div>
+              <p>Post independence Kazakhstan developed rapidly through its rich natural resources. Today it's known for its space launch facility, nuclear disarmament legacy and Astana (now Nur-Sultan) capital city. The country maintains a unique blend of traditional nomadic culture and modern development.</p>
+          </div>
+      </div>
+  </section>
+</body>
+</html>
